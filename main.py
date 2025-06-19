@@ -4,8 +4,8 @@ import joblib
 import numpy as np
 
 # Load the trained Random Forest model and feature columns
-model = joblib.load('random_forest_model_standardized.pkl')
-feature_columns = joblib.load('feature_columns_standardized.pkl')
+model = joblib.load('random_forest_model.pkl')
+feature_columns = joblib.load('feature_columns_.pkl')
 
 # Define the standardized categories
 SEX_OPTIONS = ['M', 'F']
